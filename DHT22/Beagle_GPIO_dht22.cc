@@ -1,4 +1,12 @@
-
+/*
+  DHT22 reader for Beaglebone
+  
+  Inspired by adafruit code : 
+    https://github.com/adafruit/Adafruit-Raspberry-Pi-Python-Code/tree/master/Adafruit_DHT_Driver
+  Library used for GPIO access : 
+    https://github.com/majestik666/Beagle_GPIO
+  
+*/
 #include "Beagle_GPIO.hh"
 #include <time.h>
 #include <iostream>
