@@ -26,7 +26,7 @@
 
 #define GPIO_ERROR(msg)	std::cout << "[GPIO] Error : " << msg << std::endl;
  
-#define BEAGLE_GPIO_DEBUG
+//#define BEAGLE_GPIO_DEBUG
 #ifdef BEAGLE_GPIO_DEBUG
 	#define GPIO_PRINT(msg)	std::cout << "[GPIO] : " << msg << std::endl;
 	#define assert( condition ) 	\
